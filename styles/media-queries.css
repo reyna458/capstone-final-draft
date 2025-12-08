@@ -10,7 +10,16 @@ main, section, footer {
 
 .menu-title a {
     margin-left: 0;
-    font-size: 90%;
+    font-size: 60%;
+    
+}
+
+.menu-title {
+    grid-column: 2 / span 2;
+}
+
+.small-title {
+    font-size: 40%;
 }
 
     .menubar {
@@ -25,10 +34,10 @@ main, section, footer {
 
     .menu {
         margin-left: 5%;
-        min-width: 90%;
-        max-width: 90%;
+        min-width: 100%;
+        max-width: 100%;
         margin-right: 5%;
-        justify-self: center;
+        /* justify-self: center; */
     }
 
     .arrow {
@@ -58,18 +67,24 @@ main, section, footer {
     }
 
     .menubar {
-        position: fixed;
-        max-width: 90%;
+        position: inherit;
+        max-width: 50%;
         justify-self: right;
+        margin-right: 10%;
+        /* display: flex; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
     .menu-button {
         padding: 5%;
        background-color: #1C2543;
+       border: white solid 1px;
+       margin: 1.5% 0 1.5% 0;
     }
 
     .menu-button a {
-         border: white 1px solid;
+         /* border: white 1px solid; */
          padding: 5%;
     }
 
@@ -79,6 +94,12 @@ main, section, footer {
 
     footer {
         margin: 0 auto;
+    }
+
+    .dropdown-list.active li {
+        margin: 5% 0 5% 0;
+        border: white 1px solid;
+        padding: 2.5%;
     }
 
     .data-viz-grid {

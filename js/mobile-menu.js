@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 $(document).on("click", ".plus-sign", function() {
-    $('.menubar').css("display", "inline")
+    $('.menubar').css("display", "grid")
     $('.plus-sign').attr("src", "assets/x-sign.png")
     $('.plus-sign').toggleClass('x-sign')
     $('.plus-sign').toggleClass('plus-sign')

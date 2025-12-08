@@ -111,6 +111,11 @@ figcaption {
     margin-bottom: 20%;
     min-width: 30px;
     min-height: 30px;
+    aspect-ratio: 1 / 1;
+}
+
+.small-title {
+    font-size: 70%;
 }
 
 .menu-title {
@@ -141,7 +146,7 @@ figcaption {
     position: absolute;
     z-index: 100;
     top: 25px;
-    right: 40px;
+    right: 15px;
     max-width: 35px;
     max-height: 35px;
 }
