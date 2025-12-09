@@ -105,14 +105,13 @@ figcaption {
 .title-box-logo {
     background-color: #AFBDEE;
     width: 100%;
-    height: 50%;
-    grid-column: 1;
+    aspect-ratio: 1 / 1;
+    height: auto;       /* allow aspect-ratio to control height */
+    min-width: 30px;
     align-self: end;
     margin-bottom: 20%;
-    min-width: 30px;
-    min-height: 30px;
-    aspect-ratio: 1 / 1;
 }
+
 
 .small-title {
     font-size: 70%;
