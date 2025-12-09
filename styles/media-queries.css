@@ -28,7 +28,7 @@ main, section, footer {
 
     header {
         width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
         margin: 0 auto;
     }
 
@@ -147,3 +147,4 @@ main, section, footer {
         text-align: center;
     }
 }
+
