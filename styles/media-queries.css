@@ -1,5 +1,9 @@
 @media screen and (max-width: 530px) {
 
+   html {
+      overflow-x: hidden;
+   }
+
    body {
   margin: 0;
 }
@@ -147,3 +151,4 @@ main, section, footer {
         text-align: center;
     }
 }
+
